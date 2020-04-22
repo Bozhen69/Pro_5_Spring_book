@@ -1,8 +1,10 @@
+package example1;
+
 public class StandardMessageRender implements MessageRender {
 
     private MessageProvider mp;
 
-    public void RenderMessage(String message) {
+    public void renderMessage(String message) {
         System.out.println(mp.provideMessage(message));
     }
 
