@@ -1,7 +1,7 @@
 package example1;
 
 public interface MessageRender {
-    void renderMessage(String message);
+    void renderMessage();
 
     void setMessageProvider(MessageProvider mp);
 
